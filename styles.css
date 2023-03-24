@@ -49,5 +49,59 @@ body{
 
 .audio{
     margin-top: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    body{
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        background: rgb(204, 192, 179);
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
     
+    .container{
+        background-color: rgba(250, 240, 230, .5);
+        padding: 28px;
+        border-radius: 30px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+        width: 65%;
+        max-width: 70%;
+        min-width: fit-content;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    .input{
+        height: 30px;
+        width: 290px;
+        border: none;
+        box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.7);
+        border-radius: 30px;
+        margin: 15px 0;
+        text-align: center;
+        font-size: 15px;
+        font-family: inherit;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+    
+    .type{
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: 700;
+    }
+    
+    .meaning-container{
+        display: none;
+    }
+    
+    /* AUDIO */
+    
+    .audio{
+        margin-top: 20px;
+    }
 }
