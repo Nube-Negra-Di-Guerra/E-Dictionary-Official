@@ -23,7 +23,7 @@ body{
 
 .input{
     height: 50px;
-    width: 500px;
+    width: 80%;
     border: none;
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.7);
     border-radius: 30px;
